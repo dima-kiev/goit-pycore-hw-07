@@ -12,7 +12,7 @@ def main():
     controller = Controller(cmd_factory)
     view = (View(controller))
 
-    view.start()
+    view.start("help")
 
 
 if __name__ == '__main__':
