@@ -25,7 +25,7 @@ def main():
     controller = Controller(cmd_factory)
     view = View(controller)
 
-    init_test_data()
+    init_test_data(controller)
 
     view.start("help")
 
