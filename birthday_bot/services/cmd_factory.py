@@ -28,6 +28,7 @@ class CmdFactory:
         self.commands[CmdNotFound.CMD_NAME] = CmdNotFound()
         self.commands[CmdHello.CMD_NAME] = CmdHello()
         self.commands[CmdAdd.CMD_NAME] = CmdAdd(self.storage)
+        self.commands[CmdEdit.CMD_NAME] = CmdEdit(self.storage)
         self.commands[CmdFind.CMD_NAME] = CmdFind(self.storage)
         self.commands[CmdList.CMD_NAME] = CmdList(self.storage)
         self.commands[CmdDel.CMD_NAME] = CmdDel(self.storage)
