@@ -10,7 +10,7 @@ def main():
     birthdays = Birthdays(storage)
     cmd_factory = CmdFactory(birthdays, storage)
     controller = Controller(cmd_factory)
-    view = (View(controller))
+    view = View(controller)
 
     view.start("help")
 
