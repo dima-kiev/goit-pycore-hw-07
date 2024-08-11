@@ -21,5 +21,4 @@ class CmdNotFound(AbstractCmd):
         - birth_add <name> <birth MM.DD>
         - birth_list
         
-        - add <name> <not_valid_number, like 3e3> -> to get decorator handled error
         """
